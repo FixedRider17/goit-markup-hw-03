@@ -1,5 +1,12 @@
 .footer {
+  padding: 100px 0;
   background-color: #2e2f42;
+}
+
+.footer .logo {
+  display: inline-block;
+  margin-right: 0;
+  margin-bottom: 16px;
 }
 
 .logo-part2 {
@@ -7,8 +14,8 @@
 }
 
 .footer-text {
+  max-width: 264px;
   color: #f4f4fd;
   line-height: 1.5;
   letter-spacing: 0.02em;
-  line-height: 1.5;
 }

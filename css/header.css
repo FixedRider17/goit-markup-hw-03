@@ -1,5 +1,18 @@
 .header {
   background-color: #ffffff;
+  border-bottom: 1px solid #e7e9fc;
+}
+
+.header-container,
+.main-nav,
+.nav-list,
+.contacts-list {
+  display: flex;
+  align-items: center;
+}
+
+.main-nav {
+  flex-grow: 1;
 }
 
 .logo {
@@ -7,16 +20,23 @@
   color: #4d5ae5;
   font-size: 18px;
   font-weight: 700;
-  line-height: 1.33;
+  line-height: 1.17;
   letter-spacing: 0.03em;
   text-transform: uppercase;
+  margin-right: 76px;
 }
 
 .logo-part {
   color: #2e2f42;
 }
 
+.nav-list {
+  gap: 40px;
+}
+
 .nav-list-link {
+  display: block;
+  padding: 24px 0;
   color: #2e2f42;
   font-weight: 500;
   line-height: 1.5;
@@ -29,9 +49,16 @@
 
 .address {
   font-style: normal;
+  margin-left: auto;
+}
+
+.contacts-list {
+  gap: 40px;
 }
 
 .address-link {
+  display: block;
+  padding: 24px 0;
   color: #434455;
   line-height: 1.5;
   letter-spacing: 0.02em;
