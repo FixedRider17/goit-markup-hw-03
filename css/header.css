@@ -4,7 +4,6 @@
 }
 
 .header-container,
-.main-nav,
 .nav-list,
 .contacts-list {
   display: flex;
@@ -31,6 +30,7 @@
 }
 
 .nav-list {
+  display: flex;
   gap: 40px;
 }
 
@@ -53,6 +53,7 @@
 }
 
 .contacts-list {
+  display: flex;
   gap: 40px;
 }
 
